@@ -1,7 +1,7 @@
 /* Write your CSS here */
 import styled from 'styled-components/macro'
 
-.export const CourseTitleAndDurationContainer = styled.div`
+export const CourseTitleAndDurationContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,7 +13,7 @@ import styled from 'styled-components/macro'
   }
 `
 
-.export const CourseTitle = styled.h1`
+export const CourseTitle = styled.h1`
   color: #171f46;
   font-family: 'Roboto';
   font-size: 16px;
@@ -24,14 +24,13 @@ import styled from 'styled-components/macro'
     font-size: 24px;
   }
 `
-.export const DurationContainer = styled.div`
+export const DurationContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
 `
 
-
-.export const Duration = styled.p`
+export const Duration = styled.p`
   color: #171f46;
   font-family: 'Roboto';
   font-size: 12px;
@@ -43,7 +42,7 @@ import styled from 'styled-components/macro'
   }
 `
 
-.export const CourseDescription = styled.p`
+export const CourseDescription = styled.p`
   color: #1e293b;
   font-family: 'Roboto';
   font-size: 12px;
@@ -54,7 +53,7 @@ import styled from 'styled-components/macro'
   }
 `
 
-.export const CourseTagsList = styled.ul`
+export const CourseTagsList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -62,13 +61,11 @@ import styled from 'styled-components/macro'
   margin: 0px;
 `
 
-
-.export const CourseTagItem = styled.li`
+export const CourseTagItem = styled.li`
   list-style-type: none;
 `
 
-
-.export const CourseTag = styled.p`
+export const CourseTag = styled.p`
   color: #25262c;
   background-color: #e2e8f0;
   font-family: 'Roboto';
@@ -85,5 +82,3 @@ import styled from 'styled-components/macro'
     font-weight: 600;
   }
 `
-
-

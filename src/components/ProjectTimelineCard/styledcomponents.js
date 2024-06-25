@@ -1,20 +1,20 @@
 /* Write your CSS here */
 import styled from 'styled-components/macro'
 
-.export const ProjectCardContainer = styled.div`
+export const ProjectCardContainer = styled.div`
   width: 100%;
   height: 100%;
   margin-top: 7px;
   margin-bottom: 7px;
 `
 
-.export const ProjectImage = styled.img`
+export const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
 `
 
 
-.export const ProjectTitleAndDurationContainer = styled.div`
+export const ProjectTitleAndDurationContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -26,7 +26,7 @@ import styled from 'styled-components/macro'
 `
 
 
-.export const ProjectTitle = styled.h1`
+export const ProjectTitle = styled.h1`
   color: #171f46;
   font-family: 'Roboto';
   font-size: 20px;
@@ -39,14 +39,14 @@ import styled from 'styled-components/macro'
 `
 
 
-.export const DurationContainer = styled.div`
+export const DurationContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
 `
 
 
-.export const Duration = styled.p`
+export const Duration = styled.p`
   color: #171f46;
   font-family: 'Roboto';
   font-size: 12px;
@@ -59,7 +59,7 @@ import styled from 'styled-components/macro'
 `
 
 
-.export const ProjectDescription = styled.p`
+export const ProjectDescription = styled.p`
   color: #1e293b;
   font-family: 'Roboto';
   font-size: 12px;
@@ -71,7 +71,7 @@ import styled from 'styled-components/macro'
 `
 
 
-.export const VisitLink = styled.a`
+export const VisitLink = styled.a`
   text-align: center;
   color: #0967d2;
   font-family: 'Roboto';

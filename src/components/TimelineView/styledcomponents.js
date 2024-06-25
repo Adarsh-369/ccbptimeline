@@ -1,7 +1,7 @@
 /* Write your CSS here */
 import styled from 'styled-components/macro'
 
-.export const TimelineContainer = styled.div`
+export const TimelineContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -9,7 +9,7 @@ import styled from 'styled-components/macro'
 `
 
 
-.export const ResponsiveContainer = styled.div`
+export const ResponsiveContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@ import styled from 'styled-components/macro'
 `
 
 
-.export const HeaderContainer = styled.div`
+export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@ import styled from 'styled-components/macro'
 `
 
 
-.export const Heading = styled.h1`
+export const Heading = styled.h1`
   text-align: center;
   color: #171f46;
   font-family: 'Roboto';
@@ -40,7 +40,7 @@ import styled from 'styled-components/macro'
   }
 `
 
-.export const CCBPHeading = styled.span`
+export const CCBPHeading = styled.span`
   color: #2b237c;
   font-family: 'Roboto';
   font-weight: 500;
